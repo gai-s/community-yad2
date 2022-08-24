@@ -80,7 +80,7 @@ function EditListing() {
             }
         }
         fetchUserListing()
-    }, [params.listingId, checkingStatus, auth.currentUser.uid, loggedIn, navigate])
+    }, [params.listingId, checkingStatus, loggedIn, navigate])
 
     const onSubmit = async (e) => {
         e.preventDefault()

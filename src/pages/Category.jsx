@@ -24,7 +24,7 @@ function Category() {
                     listingsRef, 
                     where('type', '==', params.categoryName),
                     orderBy('timestamp', 'desc'),
-                    limit(1)
+                    limit(10)
                     )
                 const querySnap = await getDocs(q)
                 const lastVisible = querySnap.docs[querySnap.docs.length-1]

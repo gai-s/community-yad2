@@ -9,7 +9,7 @@ function Explore() {
   return (
     <div className='explore'>
       <header>
-        <p className="pageHeader">Explore</p>
+        <p className="pageHeader">Hadar Community Yad2 - Explore</p>
       </header>
 
       <main>
